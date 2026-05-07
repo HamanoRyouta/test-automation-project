@@ -8,9 +8,9 @@
   <compareMatchKey>ログアウト</compareMatchKey>
   <script>
     <command line="Evidence_BrowserScreen=ログアウト" lineNo="6" hasInspectionData="true">
-      <image path="data/1.png">
+      <image path="data\1.png">
         <range x="" y="" width="" height=""/>
-        <exclude x="" y="" width="" height=""/>
+        <exclude x="526" y="390" width="218" height="47"/>
       </image>
     </command>
     <command line="Click_ById=id_logout" lineNo="8"/>

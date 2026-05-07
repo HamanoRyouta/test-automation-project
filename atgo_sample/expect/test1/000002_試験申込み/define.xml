@@ -7,8 +7,8 @@
   <subFolder></subFolder>
   <compareMatchKey>試験申込み</compareMatchKey>
   <script>
-    <command line="Input_ById=id_firstName|六元素" lineNo="6"/>
-    <command line="AssertInputValue_ByCssSelector=#id_firstName|六元素" lineNo="7"/>
+    <command line="Input_ById=id_firstName|RGS" lineNo="6"/>
+    <command line="AssertInputValue_ByCssSelector=#id_firstName|RGS" lineNo="7"/>
     <command line="Input_ById=id_lastName|太郎" lineNo="8"/>
     <command line="Input_Select_ById_UseOptionValue=id_select_exam|python" lineNo="10"/>
     <command line="Input_Radio_ByName_UseValue=gender|male" lineNo="12"/>
@@ -22,17 +22,17 @@
     <command line="Input_CheckBox_ById=id_reason4|false" lineNo="23"/>
     <command line="Input_ById=id_coupon|EX2020" lineNo="25"/>
     <command line="Evidence_BrowserFullScreen=申込み" lineNo="27" hasInspectionData="true">
-      <image path="data/1.png">
+      <image path="data\1.png">
         <range x="" y="" width="" height=""/>
         <exclude x="" y="" width="" height=""/>
       </image>
-      <image path="data/2.png">
+      <image path="data\2.png">
         <range x="" y="" width="" height=""/>
         <exclude x="" y="" width="" height=""/>
       </image>
     </command>
     <command line="Evidence_HTML" lineNo="28" hasInspectionData="true">
-      <html path="data/3.txt" encode="shift-jis">
+      <html path="data\3.txt" encode="shift-jis">
         <mask regex=""/>
       </html>
     </command>

@@ -11,7 +11,7 @@
     <command line="Input_ById=id_email|test@test.com" lineNo="7"/>
     <command line="Input_ById=inputPassword|test" lineNo="9"/>
     <command line="Evidence_BrowserScreen=ログイン" lineNo="11" hasInspectionData="true">
-      <image path="data/1.png">
+      <image path="data\1.png">
         <range x="" y="" width="" height=""/>
         <exclude x="" y="" width="" height=""/>
       </image>
