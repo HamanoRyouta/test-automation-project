@@ -1,0 +1,122 @@
+<html lang="ja"><head>
+    <meta charset="utf-8">
+    <meta name="robots" content="noindex">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>試験申込みサンプルサイト</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="inlucde/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="inlucde/css/form-validation.css" rel="stylesheet">
+</head>
+
+<body class="bg-light">
+
+    <div class="container" style="width: 85%;">
+        <div class="py-5 text-center">
+            <h2>試験申込み</h2>
+        </div>
+
+        <form class="needs-validation" action="logout.html" autocomplete="off">
+            <div class="form-group">
+                <div class="row">
+                    <div class="col-md-6 mb-3">
+                        <label for="id_firstName">姓<span class="text-danger">（必須）</span></label>
+                        <input type="text" class="form-control" id="id_firstName" name="input_firstName" value="" required="">
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <label for="id_lastName">名<span class="text-danger">（必須）</span></label>
+                        <input type="text" class="form-control" id="id_lastName" name="input_lastName" value="">
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="id_testName">申込み試験一覧<span class="text-danger">（必須）</span></label>
+                <select class="form-control" id="id_select_exam" name="selece_exam">
+                    <option value="java">Java試験</option>
+                    <option value="python">Python試験</option>
+                    <option value="cpp" "="">C++試験</option>
+                    <option value="csharp">C#試験</option>
+                    <option value="js">JavaScript試験</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <div><label for="id_radio">性別<span class="text-danger">（必須）</span></label></div>
+                <label class="radio-inline" id="id_radiolabel1">
+                    <input type="radio" name="gender" id="id_male" value="male" style="width: 35px;" required=""> 男性
+                </label>
+                <label class="radio-inline" id="id_radiolabel2">
+                    <input type="radio" name="gender" id="id_female" value="female" style="width: 35px;"> 女性
+                </label>
+            </div>
+
+            <label>希望受験日<span class="text-danger">（必須）</span></label>
+            <div class="row">
+                <div class="col-md-4 mb-3">
+                    <div class="form-group">
+                        <select class="form-control" id="id_select_year" name="select_year">
+                            <option value="2019">2019年</option>
+                            <option value="2020">2020年</option>
+                            <option value="2021">2021年</option>
+                            <option value="2022">2022年</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <div class="form-group">
+                        <select class="form-control" id="id_select_month" name="select_month">
+                            <option value="1">1月</option>
+                            <option value="2">2月</option>
+                            <option value="3">3月</option>
+                            <option value="4">4月</option>
+                            <option value="5">5月</option>
+                            <option value="6">6月</option>
+                            <option value="7">7月</option>
+                            <option value="8">8月</option>
+                            <option value="9">9月</option>
+                            <option value="10">10月</option>
+                            <option value="11">11月</option>
+                            <option value="12">12月</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <div class="form-group">
+                        <select class="form-control" id="id_select_day" name="select_day">
+                            <option value="5">5日</option>
+                            <option value="10">10日</option>
+                            <option value="15">15日</option>
+                            <option value="20">20日</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+
+            <label>受験目的</label>
+            <div class="form-group">
+                <label id="checkboxlabel1"><input type="checkbox" name="purpose" value="reason1" id="id_reason1" style="width: 35px;">仕事の就職に役立つ</label><br>
+                <label id="checkboxlabel2"><input type="checkbox" name="purpose" value="reason2" id="id_reason2" style="width: 35px;">進学や能力証明に必要</label><br>
+                <label id="checkboxlabel3"><input type="checkbox" name="purpose" value="reason3" id="id_reason3" style="width: 35px;">自分の実力が知りたい</label><br>
+            </div>
+
+            <div class="form-group">
+                <label>クーポン</label>
+                <input type="text" class="form-control" id="id_coupon" name="coupon" value="">
+            </div>
+
+            <button class="btn btn-primary btn-lg btn-block" type="submit" style="margin-top: 30px;" id="id_submit">申込み</button>
+        </form>
+        <footer class="my-4 pt-4 text-muted text-small">
+            <p class="mb-1"><small>こちらはATgoのサンプルにご利用いただけるテスト用サイトです。入力データについて、DBなどサーバー側での保存はございません。</small></p>
+        </footer>
+    </div>
+
+
+
+</body></html>
