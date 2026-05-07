@@ -2,7 +2,7 @@
 
 <root>
   <defineVersion>4.0</defineVersion>
-  <scenarioName>テスト1</scenarioName>
+  <scenarioName>test1</scenarioName>
   <scriptName>試験申込み</scriptName>
   <subFolder></subFolder>
   <compareMatchKey>試験申込み</compareMatchKey>
